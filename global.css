@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+button,
+a {
+  cursor: pointer;
+  transition: filter 0.2s;
+}
+
+a:hover {
+  filter: brightness(0.8);
+}
