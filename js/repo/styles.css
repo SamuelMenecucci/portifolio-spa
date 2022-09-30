@@ -1,0 +1,40 @@
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 80px;
+
+  justify-content: center;
+  max-width: 1600px;
+  margin: auto;
+}
+
+.card {
+  background: linear-gradient(
+    to right,
+    rgba(241, 4, 4, 0.15),
+    rgba(250, 14, 28, 0.14),
+    rgba(125, 114, 240, 0.14),
+    rgba(117, 121, 255, 0.15)
+  );
+  border-radius: 24px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 180px;
+  min-width: 380px;
+
+  text-align: center;
+}
+
+.dark {
+  color: white;
+  background-color: black;
+}
