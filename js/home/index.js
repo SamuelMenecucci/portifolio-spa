@@ -54,7 +54,7 @@ function template() {
         </div>
         </section>
 
-        <img src="../../assets/home.svg" />
+        <img src="../../assets/home.png" />
     
     `;
 }
