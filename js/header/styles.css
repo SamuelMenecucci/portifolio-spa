@@ -1,0 +1,45 @@
+header {
+  background-color: #6d1218;
+  height: 72px;
+  border-radius: 16px;
+  margin: 32px 42px;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 72px;
+}
+
+header nav a {
+  /* font-weight: 700; apenas para o link selecionado */
+  padding: 0 5px;
+  color: white;
+  font-size: 16px;
+  position: relative;
+}
+
+header nav a + a {
+  margin-left: 16px;
+}
+
+header nav a.selected::after {
+  content: "";
+  position: absolute;
+  background-color: #f90808;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  border-radius: 3px 3px 0 0;
+}
+
+header nav.dark {
+  background-color: #fff;
+  border-radius: 16px;
+}
+
+header nav.dark a {
+  color: #000;
+}
