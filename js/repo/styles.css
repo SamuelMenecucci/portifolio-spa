@@ -6,7 +6,7 @@ h1 {
 .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 80px;
+  gap: 50px;
 
   justify-content: center;
   max-width: 1600px;
@@ -29,7 +29,7 @@ h1 {
   align-items: center;
 
   min-height: 180px;
-  min-width: 380px;
+  min-width: 330px;
 
   text-align: center;
 
