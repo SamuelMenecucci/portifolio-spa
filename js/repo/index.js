@@ -10,7 +10,13 @@ ${repositorios
   <div class="card repo">
     <h2>${element.name}</h2>
 
-    <p>${element.description}</p>
+    <p>${
+      element.description
+        ? element.description.length > 100
+          ? element.description?.substring(0, 100) + "..."
+          : element.description
+        : "Sem descrição"
+    }</p>
 
     <a href=${element.html_url} target="blank">Acessar Repositório</a>
     
