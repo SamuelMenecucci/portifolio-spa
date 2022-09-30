@@ -17,3 +17,12 @@ a {
 a:hover {
   filter: brightness(0.8);
 }
+
+.dark {
+  background-color: #000;
+  color: white;
+}
+
+.dark h1 {
+  color: white;
+}
