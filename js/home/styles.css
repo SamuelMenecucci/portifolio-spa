@@ -1,0 +1,38 @@
+main {
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section {
+  display: inline-block;
+  width: 600px;
+  text-align: left;
+}
+
+section h1 {
+  font-size: 48px;
+  color: #1b1c37;
+  margin-bottom: 30px;
+}
+
+section p {
+  margin-bottom: 30px;
+  /* word-break: break-all; */
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  text-align: center;
+}
+
+.card ul li {
+  list-style: none;
+}
