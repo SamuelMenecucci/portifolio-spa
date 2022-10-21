@@ -1,4 +1,3 @@
-import styles from "./styles.css" assert { type: "css" };
 import { renderRepo } from "../repo/index.js";
 import { renderHome } from "../home/index.js";
 import { renderContact } from "../contact/index.js";

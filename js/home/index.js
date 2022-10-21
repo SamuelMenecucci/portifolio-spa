@@ -1,5 +1,4 @@
 import * as texts from "../../texts/home.js";
-import styles from "./styles.css" assert { type: "css" };
 
 function template() {
   return `
