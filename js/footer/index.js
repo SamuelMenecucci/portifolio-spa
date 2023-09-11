@@ -14,8 +14,3 @@ export function renderFooter(main) {
 
   document.body.appendChild(footer);
 }
-
-// backToTop?.addEventListener("click", () => {
-//   document.body.animate({ scrollTop: 0 }, 800);
-//   alert("oi");
-// });

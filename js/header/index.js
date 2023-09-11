@@ -47,7 +47,7 @@ const actionsButtons = document.getElementsByTagName("button");
 const { top, dark } = actionsButtons;
 
 top.addEventListener("click", () => {
-  window.scrollTo(0, 0);
+  window.scrollTo({ top: 0, behavior: "smooth" });
 });
 
 dark.addEventListener("click", () => {
